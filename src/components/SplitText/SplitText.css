@@ -1,0 +1,44 @@
+.wrapper {
+    /*This part is important for centering*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.typing-title {
+    width: 18ch;
+    animation: typing 4s steps(18), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2.5em;
+}
+.typing-subtitle{
+    font-size: 1.5em;
+    opacity: 0;
+    /*animation: appear 1s 5s;*/
+    animation-name: appear;
+    animation-duration: 1s;
+    animation-delay: 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes appear {
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
+}
