@@ -3,16 +3,16 @@
     background-position: center 37%;
     transition: all 1s ease;
 }
-.mxpHero .hero-body{
+.mxpHeroBody{
     background-color: rgba(0,0,0,0.7);
     transition: all 1s ease;
 }
-.mxpHero .hero-body:hover{
+.mxpHeroBody:hover{
     background-color: rgba(0,0,0,0.5);
 }
 
 @media screen and (max-width: 768px){
-    .mxpHero .hero-body{
+    .mxpHeroBody{
         background-color: rgba(0,0,0,0.5);
     }
 }

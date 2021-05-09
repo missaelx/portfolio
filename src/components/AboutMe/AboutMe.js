@@ -5,7 +5,7 @@ import {Section} from 'react-scroll-section';
 const AboutMe = () => {
     return (
         <Section id={"aboutme"}>
-            <section className={"section"} id="#aboutme">
+            <section className={"section"}>
                 <div className="container mt-6">
                     <div className="columns">
                         <div className="column">

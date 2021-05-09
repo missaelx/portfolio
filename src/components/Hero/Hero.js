@@ -7,7 +7,7 @@ const Hero = (props) => {
         <section className={["hero", "is-medium", styles.mxpHero].join(" ")} style={{
             backgroundImage: props.background,
         }}>
-            <div className="hero-body">
+            <div className={["hero-body", styles.mxpHeroBody].join(" ")}>
                 <TypingText
                     title={props.title}
                     subtitle={props.subtitle}
