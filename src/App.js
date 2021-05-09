@@ -4,7 +4,7 @@ import {ScrollingProvider} from 'react-scroll-section';
 
 function App() {
     return (
-        <ScrollingProvider>
+        <ScrollingProvider scrollBehavior={"smooth"}>
             <Home />
         </ScrollingProvider>
     );

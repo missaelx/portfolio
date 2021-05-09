@@ -10,7 +10,7 @@ const NavbarLinksProvider = {
             href: "#projects",
             label: "projects"
         },{
-            href: "#",
+            href: "#contact",
             label: "get in touch"
         },
     ],

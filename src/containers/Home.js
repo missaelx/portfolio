@@ -6,6 +6,7 @@ import HeroProvider from "../utils/InfoProviders/HeroProvider";
 import TecList from "../components/TecList/TecList";
 import Experience from "../components/Experience/Experience";
 import Projects from "../components/Projects/Projects";
+import Contact from "../components/Contact/Contact";
 
 const Home = () => {
     return(<>
@@ -22,6 +23,7 @@ const Home = () => {
         <TecList/>
         <Experience/>
         <Projects/>
+        <Contact/>
     </>)
 }
 
