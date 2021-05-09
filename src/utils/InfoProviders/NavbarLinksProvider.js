@@ -1,7 +1,7 @@
 const NavbarLinksProvider = {
     navigationLinks: [
         {
-            href: "#",
+            href: "#aboutme",
             label: "about me"
         },{
             href: "#",

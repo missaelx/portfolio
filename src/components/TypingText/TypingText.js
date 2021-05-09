@@ -1,6 +1,6 @@
 import React from 'react';
-import "./SplitText.css"
-const SplitText = (props) => {
+import "./TypingText.css"
+const TypingText = (props) => {
     return (
         <div className="wrapper block">
             <div className="typing-title">
@@ -13,4 +13,4 @@ const SplitText = (props) => {
     );
 }
 
-export default SplitText;
+export default TypingText;

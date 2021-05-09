@@ -1,5 +1,5 @@
 import React from 'react';
-import SplitText from "../SplitText/SplitText";
+import TypingText from "../TypingText/TypingText";
 import './Hero.css';
 import background_image from '../../assets/img/skyline.jpg';
 import SocialMediaContainer from "../SocialMediaContainer/SocialMediaContainer";
@@ -9,7 +9,7 @@ const Hero = () => {
             backgroundImage: `url(${background_image})`,
         }}>
             <div className="hero-body">
-                <SplitText
+                <TypingText
                     title={"Missael Hernández"}
                     subtitle={"Software engineer".toUpperCase()}
                 />

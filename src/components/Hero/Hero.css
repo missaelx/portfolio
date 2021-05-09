@@ -10,3 +10,9 @@
 .hero-body:hover{
     background-color: rgba(0,0,0,0.5);
 }
+
+@media screen and (max-width: 768px){
+    .hero-body{
+        background-color: rgba(0,0,0,0.5);
+    }
+}
