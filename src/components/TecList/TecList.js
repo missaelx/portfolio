@@ -1,5 +1,3 @@
-
-
 const TecList = () => {
     return (
         <section className="section">

@@ -1,18 +1,18 @@
-.hero{
+.mxpHero{
     background-size: 100%;
     background-position: center 37%;
     transition: all 1s ease;
 }
-.hero-body{
+.mxpHero .hero-body{
     background-color: rgba(0,0,0,0.7);
     transition: all 1s ease;
 }
-.hero-body:hover{
+.mxpHero .hero-body:hover{
     background-color: rgba(0,0,0,0.5);
 }
 
 @media screen and (max-width: 768px){
-    .hero-body{
+    .mxpHero .hero-body{
         background-color: rgba(0,0,0,0.5);
     }
 }

@@ -4,6 +4,7 @@ import NavbarLinksProvider from "../utils/InfoProviders/NavbarLinksProvider";
 import AboutMe from "../components/AboutMe/AboutMe";
 import HeroProvider from "../utils/InfoProviders/HeroProvider";
 import TecList from "../components/TecList/TecList";
+import Experience from "../components/Experience/Experience";
 
 const Home = () => {
     return(<>
@@ -18,6 +19,7 @@ const Home = () => {
         />
         <AboutMe />
         <TecList/>
+        <Experience/>
     </>)
 }
 
