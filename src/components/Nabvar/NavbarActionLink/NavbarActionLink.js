@@ -10,9 +10,7 @@ const NavbarActionLink = (props) => {
             buttonLabel = "is-dark";
     }
     return (
-        <div className="buttons">
-            <a href={props.href} onClick={props.onClick} className={"button " + buttonLabel}>{props.label}</a>
-        </div>
+        <a href={props.href} onClick={props.onClick} className={"button " + buttonLabel}>{props.label}</a>
     );
 }
 

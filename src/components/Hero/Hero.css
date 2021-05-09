@@ -1,0 +1,12 @@
+.hero{
+    background-size: 100%;
+    background-position: center 37%;
+    transition: all 1s ease;
+}
+.hero-body{
+    background-color: rgba(0,0,0,0.7);
+    transition: all 1s ease;
+}
+.hero-body:hover{
+    background-color: rgba(0,0,0,0.5);
+}
