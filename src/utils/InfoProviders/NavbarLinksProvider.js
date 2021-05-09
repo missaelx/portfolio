@@ -8,7 +8,7 @@ const NavbarLinksProvider = {
             label: "experience"
         },{
             href: "#",
-            label: "project"
+            label: "projects"
         },{
             href: "#",
             label: "get in touch"

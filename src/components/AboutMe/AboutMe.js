@@ -19,7 +19,7 @@ const AboutMe = () => {
                             </p>
                         </div>
                         <div className="column is-two-fifths">
-                            <img src={missaelxp} alt={"Picture of Missael (me)"}/>
+                            <img src={missaelxp} alt={"Missael (me) at Bola de Oro cascade"}/>
                         </div>
                     </div>
                 </div>

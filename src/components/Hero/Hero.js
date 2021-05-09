@@ -1,17 +1,16 @@
 import React from 'react';
 import TypingText from "../TypingText/TypingText";
 import './Hero.css';
-import background_image from '../../assets/img/skyline.jpg';
 import SocialMediaContainer from "../SocialMediaContainer/SocialMediaContainer";
-const Hero = () => {
+const Hero = (props) => {
     return (
         <section className="hero is-medium" style={{
-            backgroundImage: `url(${background_image})`,
+            backgroundImage: props.background,
         }}>
             <div className="hero-body">
                 <TypingText
-                    title={"Missael Hernández"}
-                    subtitle={"Software engineer".toUpperCase()}
+                    title={props.title}
+                    subtitle={props.subtitle}
                 />
                 <SocialMediaContainer />
             </div>
