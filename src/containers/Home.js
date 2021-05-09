@@ -5,6 +5,7 @@ import AboutMe from "../components/AboutMe/AboutMe";
 import HeroProvider from "../utils/InfoProviders/HeroProvider";
 import TecList from "../components/TecList/TecList";
 import Experience from "../components/Experience/Experience";
+import Projects from "../components/Projects/Projects";
 
 const Home = () => {
     return(<>
@@ -20,6 +21,7 @@ const Home = () => {
         <AboutMe />
         <TecList/>
         <Experience/>
+        <Projects/>
     </>)
 }
 

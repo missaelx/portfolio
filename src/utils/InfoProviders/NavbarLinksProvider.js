@@ -7,7 +7,7 @@ const NavbarLinksProvider = {
             href: "#experience",
             label: "experience"
         },{
-            href: "#",
+            href: "#projects",
             label: "projects"
         },{
             href: "#",

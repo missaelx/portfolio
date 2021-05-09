@@ -10,7 +10,7 @@ const ExperienceProvider = (currentStep) => {
         {
             label: "Universidad Veracruzana",
             className: currentStep === 1 ? "is-active": "",
-            description: "I taught at the Statistics and Informatics School (Software engineer program). The application development course covered topics such as system deployment, mobile application development, patterns, among others",
+            description: "I taught at the Statistics and Informatics School (software engineer program). The application development course covered topics such as system deployment, mobile application development, patterns, among others",
             position: "Part-time professor of Application Development",
             period: "2019-2020"
         },
