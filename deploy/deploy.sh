@@ -13,4 +13,6 @@ cd ~/builds/missael.dev
 tar xf *.tar.gz
 rm -R ~/apps/missael.dev/*
 mv build/* ~/apps/missael.dev
+rm -R build
+rm *.tar.gz
 ENDSSH
