@@ -1,3 +1,4 @@
+import resume from '../../assets/files/MissaelHernandez_CV_EN_US.pdf'
 const NavbarLinksProvider = {
     navigationLinks: [
         {
@@ -16,7 +17,7 @@ const NavbarLinksProvider = {
     ],
     actionLinks: [
         {
-            onClick: () => alert("downloading resume"),
+            onClick: () => window.open(resume),
             label: "Resume",
             type: "link"
         }

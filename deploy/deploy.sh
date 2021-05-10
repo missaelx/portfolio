@@ -11,6 +11,6 @@ scp "$fileName" missael.dev:~/builds/missael.dev
 ssh missael.dev << 'ENDSSH'
 cd ~/builds/missael.dev
 tar xf *.tar.gz
-rm ~/apps/missael.dev/*
+rm -R ~/apps/missael.dev/*
 mv build/* ~/apps/missael.dev
 ENDSSH
