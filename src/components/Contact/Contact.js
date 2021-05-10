@@ -16,7 +16,7 @@ const Contact = () => {
                             </div>
                             <div className="columns">
                                 <div className="column content">
-                                    <p className={"has-text-centered"}>Hope you find my virtual home interesting. You can cantact me at the following social media :) </p>
+                                    <p className={"has-text-centered"}>Hope you find my virtual home interesting. You can contact me at the following social media :) </p>
                                     <SocialMediaContainer/>
 
                                 </div>
