@@ -17,14 +17,14 @@ const Musik = () => {
                         <p>This App is an interactive tool that allows you to visualize and listen to the relationship between the circle, the staff and the piano.</p>
                         <div className={"columns"}>
                             <div className="column">
-                                <a href="http://google.com" className={"image"} >
+                                <a href="https://apps.apple.com/mx/app/circle-of-fifths-music-theory/id1512623838?l=en" className={"image"} >
                                     <img src={appstore} alt="" style={{height: "40px", width: "auto", margin: "0 auto"}}/>
                                 </a>
 
                             </div>
                             <div className="column">
-                                <a href="http://google.com" className={"image"}>
-                                    <img src={playstore} alt="" style={{height: "38px", width: "auto", margin: "0 auto"}}/>
+                                <a href="https://play.google.com/store/apps/details?id=dev.missael.circulodequintas&hl=es_MX&gl=US" className={"image"}>
+                                    <img src={playstore} alt="" style={{height: "38px", width: "auto", margin: "0 auto", imageOrientation: "none"}}/>
                                 </a>
                             </div>
                         </div>
