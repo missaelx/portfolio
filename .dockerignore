@@ -1,0 +1,4 @@
+.idea
+manual_deploy
+node_modules
+.Dockerfile
