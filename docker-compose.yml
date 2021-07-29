@@ -1,10 +1,19 @@
+version: "3.9"
+networks:
+  web:
+    external: true
+  internal:
+    external: false
 services:
   portfolio:
     build: ./
     image: missael-dev-portfolio
+    networks:
+      - internal
+      - web
     labels:
+      - traefik.enable=true
       - traefik.backend=portfolio
       - traefik.frontend.rule=Host:missael.dev
-      - traefik.port=8181
+      - traefik.port=80
       - traefik.docker.network=web
-      
