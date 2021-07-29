@@ -6,4 +6,5 @@ services:
       - traefik.backend=portfolio
       - traefik.frontend.rule=Host:missael.dev
       - traefik.port=8181
+      - traefik.docker.network=web
       
